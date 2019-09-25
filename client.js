@@ -11,10 +11,10 @@ const connect = function() {
     });
     conn.on('connect', () => {
     conn.write("Name: KEK")
-      console.log('Successfully connected to game server')
+    console.log('Successfully connected to game server')
     });
 
-    
+
   conn.setEncoding('utf8'); 
   return conn;
 }
